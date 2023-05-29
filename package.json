@@ -6,7 +6,7 @@
     "start": "node ./server.js"
   },
   "engines": {
-    "node": "^12.00.0",
+    "node": "^12.18.3",
     "npm": "^6.0.0"
   },
   "dependencies": {
@@ -23,7 +23,6 @@
   },
   "description": "lab assignment 1 - express portfolio",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shield0225/comp229_express_portfolio.git"
