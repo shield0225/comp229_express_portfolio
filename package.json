@@ -1,9 +1,13 @@
 {
   "name": "assignment1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
@@ -16,5 +20,18 @@
     "http-errors": "~1.6.3",
     "jquery": "^3.7.0",
     "morgan": "~1.9.1"
-  }
+  },
+  "description": "lab assignment 1 - express portfolio",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shield0225/comp229_express_portfolio.git"
+  },
+  "author": "Aileen Salcedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shield0225/comp229_express_portfolio/issues"
+  },
+  "homepage": "https://github.com/shield0225/comp229_express_portfolio#readme"
 }
