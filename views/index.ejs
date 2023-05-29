@@ -1,18 +1,42 @@
-<%- include ('partials/header.ejs') %>
+<%-include ('partials/header.ejs') %>
+<%-include ('partials/main_nav.ejs') %>
 
-<%- include ('partials/main_nav.ejs') %>
-
-  <!-- Main Content -->
-  <main class="container">
-    <div class="jumbotron">
-      <h1 class="display-4">Welcome to My <%= title %> page</h1>
-
+  <!-- hero section starts -->
+<section class="home" id="home">
+  <div id="particles-js"></div>
+  <div class="content">
+  <h2>Hi There,<br/> I'm Aileen <span>Salcedo</span></h2>
+  <p>i am into <span class="typing-text"></span></p>
+  <a href="about" class="btn"><span>About Me</span>
+    <i class="fas fa-arrow-circle-down"></i>
+  </a>
+  <div class="socials">
+      <ul class="social-icons">
+        <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/aileenshieldsalcedo/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+      </ul>
     </div>
-  </main>
+  </div>
+<div class="image">
+  <img draggable="false" class="tilt" src="../assets/images/favicon.png" alt="Favicon">
+</div>
+</section>
+<!-- hero section ends -->
 
-<%- include ('partials/bottom_nav.ejs') %>
+  <!--Script section -->
+  <script src="https://unpkg.com/ityped@0.0.10"></script>
+      <script>
+            window.ityped.init(document.querySelector('.typing-text'),{
+                strings: ["frontend development", "backend development", "web designing", "web development"],
+                loop: true,
+                typeSpeed: 50,
+                backSpeed: 25,
+                backDelay: 500,
+            })
+        </script>
 
-<%- include ('partials/footer.ejs') %>
+<%-include ('partials/bottom_nav.ejs') %>
+
+<%-include ('partials/footer.ejs') %>
 
 
 
