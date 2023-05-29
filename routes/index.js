@@ -25,9 +25,14 @@ router.get('/services', function(req, res, next) {
   res.render('index', { title: 'Services' });
 });
 
+/* GET Education page. */
+router.get('/education', function(req, res, next) {
+  res.render('index', { title: 'Education' });
+});
+
 /* GET Contact Me page. */
-router.get('/contactme', function(req, res, next) {
-  res.render('index', { title: 'Contact Me' });
+router.get('/contact', function(req, res, next) {
+  res.render('index', { title: 'Contact' });
 });
 
 module.exports = router;
