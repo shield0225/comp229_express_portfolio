@@ -1,1 +1,9 @@
 /*custom css goes here*/
+
+.contact {
+    background-image: url('../assets/images/contactme.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
