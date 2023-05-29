@@ -14,11 +14,12 @@
     margin-left: auto;
   }
 
-  .home, .contact, .about, .education, .services, .projects {
+  .home, .contact, .about, .education, .services, .projects, .contact-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     text-align: center;
+    margin-bottom: 20px;
   }
