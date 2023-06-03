@@ -28,7 +28,7 @@ body {
     height: calc(100vh - 50px);
     text-align: center;
     margin-bottom: 20px;
-    background-image: url("./assets/images/background.jpg");
+    background-image: url("./assets/images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
