@@ -1,7 +1,7 @@
 /* custom css goes here */
 
 body {
-  background-image: url("https://images.pexels.com/photos/11592813/pexels-photo-11592813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: url("./assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
