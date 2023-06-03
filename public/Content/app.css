@@ -1,6 +1,6 @@
 /*custom css goes here*/
 
-body {
+.container {
   background-image: url("./assets/images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,4 +28,7 @@ body {
     height: calc(100vh - 50px);
     text-align: center;
     margin-bottom: 20px;
+    background-image: url("./assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
