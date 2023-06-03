@@ -20,6 +20,10 @@ body {
   margin-left: auto;
 }
 
+.navbar {
+  background-color: transparent;
+}
+
 .home,
 .contact,
 .about,
