@@ -35,7 +35,7 @@ body {
 
   .content
   {
-    background-image: url("./Assets/images/background.jpg");
+    background-image: url("./public/Assets/images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
   }
