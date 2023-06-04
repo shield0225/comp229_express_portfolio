@@ -32,3 +32,13 @@ body {
   margin-top: 40px;
   margin-bottom: 30px;
 }
+
+.nav-item {
+  font-weight: normal;
+  color: #333; /* Adjust the color as needed */
+}
+
+.nav-item.active {
+  font-weight: bold;
+  color: #f00; /* Adjust the color as needed */
+}
