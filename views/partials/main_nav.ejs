@@ -17,43 +17,23 @@
           <a class="nav-link" aria-current="page" href="/home"><i class="fa-solid fa-lg fa-house-user"></i> Home</a>
         </li>
 
-        <% if (title === "About Me") { %>
-          <li class="nav-item active">
-        <% } else { %>
-          <li class="nav-item">
-        <% } %>
+        <li class="nav-item <%= title === 'About Me' ? 'active' : '' %>">
           <a class="nav-link" aria-current="page" href="/aboutme"><i class="fa-solid fa-person-through-window"></i> About Me</a>
         </li>
 
-        <% if (title === "Services") { %>
-          <li class="nav-item active">
-        <% } else { %>
-          <li class="nav-item">
-        <% } %>
+        <li class="nav-item <%= title === 'Services' ? 'active' : '' %>">
           <a class="nav-link" aria-current="page" href="/services"><i class="fa-solid fa-gears"></i> Services</a>
         </li>
 
-        <% if (title === "Education") { %>
-          <li class="nav-item active">
-        <% } else { %>
-          <li class="nav-item">
-        <% } %>
+        <li class="nav-item <%= title === 'Education' ? 'active' : '' %>">
           <a class="nav-link" aria-current="page" href="/education"><i class="fa-solid fa-user-graduate"></i> Education</a>
         </li>
 
-        <% if (title === "Projects") { %>
-          <li class="nav-item active">
-        <% } else { %>
-          <li class="nav-item">
-        <% } %>
+        <li class="nav-item <%= title === 'Projects' ? 'active' : '' %>">
           <a class="nav-link" aria-current="page" href="/projects"><i class="fa-solid fa-hammer"></i> Projects</a>
         </li>
 
-        <% if (title === "Contact") { %>
-          <li class="nav-item active">
-        <% } else { %>
-          <li class="nav-item">
-        <% } %>
+        <li class="nav-item <%= title === 'Contact' ? 'active' : '' %>">
           <a class="nav-link" aria-current="page" href="/contact"><i class="fas fa-phone-alt"> </i> Contact</a>
         </li>
 
