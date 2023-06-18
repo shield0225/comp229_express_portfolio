@@ -1,6 +1,9 @@
 <!-- Main Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-lg">
+  <a href="/" class="logo">
+    <img src="/Assets/images/logo2.png" alt="Logo" width="100" height="80">
+  </a>
+  <div class="container-fluid text-center">
     <a class="navbar-brand" href="/"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -17,44 +20,24 @@
           <a class="nav-link" aria-current="page" href="/home"><i class="fa-solid fa-lg fa-house-user"></i> Home</a>
         </li>
 
-        <% if (title === "About Me") { %>
-          <li class="nav-item active">
-        <% } else { %>
-          <li class="nav-item">
-        <% } %>
-          <a class="nav-link" aria-current="page" href="/aboutme">About Me</a>
+        <li class="nav-item <%= title === 'About Me' ? 'active' : '' %>">
+          <a class="nav-link" aria-current="page" href="/aboutme"><i class="fa-solid fa-person-through-window"></i> About Me</a>
         </li>
 
-        <% if (title === "Services") { %>
-          <li class="nav-item active">
-        <% } else { %>
-          <li class="nav-item">
-        <% } %>
-          <a class="nav-link" aria-current="page" href="/services">Services</a>
+        <li class="nav-item <%= title === 'Services' ? 'active' : '' %>">
+          <a class="nav-link" aria-current="page" href="/services"><i class="fa-solid fa-gears"></i> Services</a>
         </li>
 
-        <% if (title === "Education") { %>
-          <li class="nav-item active">
-        <% } else { %>
-          <li class="nav-item">
-        <% } %>
-          <a class="nav-link" aria-current="page" href="/education">Education</a>
+        <li class="nav-item <%= title === 'Education' ? 'active' : '' %>">
+          <a class="nav-link" aria-current="page" href="/education"><i class="fa-solid fa-user-graduate"></i> Education</a>
         </li>
 
-        <% if (title === "Projects") { %>
-          <li class="nav-item active">
-        <% } else { %>
-          <li class="nav-item">
-        <% } %>
-          <a class="nav-link" aria-current="page" href="/projects">Projects</a>
+        <li class="nav-item <%= title === 'Projects' ? 'active' : '' %>">
+          <a class="nav-link" aria-current="page" href="/projects"><i class="fa-solid fa-hammer"></i> Projects</a>
         </li>
 
-        <% if (title === "Contact") { %>
-          <li class="nav-item active">
-        <% } else { %>
-          <li class="nav-item">
-        <% } %>
-          <a class="nav-link" aria-current="page" href="/contact"><i class="fa-duotone fa-phone-rotary"></i> Contact</a>
+        <li class="nav-item <%= title === 'Contact' ? 'active' : '' %>">
+          <a class="nav-link" aria-current="page" href="/contact"><i class="fas fa-phone-alt"> </i> Contact</a>
         </li>
 
       </ul>
