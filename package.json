@@ -22,7 +22,7 @@
     "jquery": "^3.7.0",
     "morgan": "~1.9.1"
   },
-  "description": "lab assignment 1 - express portfolio",
+  "description": "lab assignment 2 - express authentication",
   "main": "index.js",
   "repository": {
     "type": "git",
