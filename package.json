@@ -1,5 +1,5 @@
 {
-  "name": "assignment1",
+  "name": "assignment2",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -26,12 +26,13 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shield0225/comp229_express_portfolio.git"
+    "url": "git+https://github.com/shield0225/comp229_express_authentication.git"
   },
   "author": "Aileen Salcedo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shield0225/comp229_express_portfolio/issues"
+    "url": "https://github.com/shield0225/comp229_express_authentication/issues"
   },
-  "homepage": "https://github.com/shield0225/comp229_express_portfolio#readme"
+  "homepage": "https://github.com/shield0225/comp229_express_authentication#readme",
+  "devDependencies": {}
 }
